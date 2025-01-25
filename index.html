@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar Menu -->
+    <div class="sidebar">
+      <h2 class="heading">blueBox</h2>
+      <ul>
+        <li>Dashboard <img src="./images/home.png" alt=""></li>
+        <li>UI Elements <img src="./images/cells.png" alt=""></li>
+        <li>Components <img src="./images/components.png" alt=""></li>
+        <li>Forms Stuff <img src="./images/contact-form.png" alt=""></li>
+        <li>Data Table <img src="./images/bullhorn.png" alt=""></li>
+        <li>Icons <img src="./images/layout.png" alt=""></li>
+        <li>Sample Page <img src="./images/grid.png" alt=""></li>
+        <li>Extra <img src="./images/extra.png" alt=""></li>
+      </ul>
+      <button>Add Project</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <header>
+        <div class="search-bar">
+            <img src="./images/search.png" alt="">
+            <input type="text" placeholder="Search Project">
+        </div>
+        <div class="user-info">
+          <div class="name-info">
+            <!-- <img id="name-image" src="./images/home.png" alt=""> -->
+            <p>Angelina Doe</p>
+          </div>
+          <img src="./images/components.png" alt="">
+          <img src="./images/user.png" alt="">
+          <img src="./images/menu.png" alt="">
+        </div>
+      </header>
+
+      <div class="title">Dashboard</div>
+      <div class="cards">
+        <div class="card purple">
+          <h3>Stock Total</h3>
+          <p>$150,000</p>
+          <span>Increased by 60%</span>
+        </div>
+        <div class="card blue">
+          <h3>Total Profit</h3>
+          <p>$25,000</p>
+          <span>Increased by 30%</span>
+        </div>
+        <div class="card orange">
+          <h3>Unique Visitors</h3>
+          <p>250,000</p>
+          <span>Increased by 80%</span>
+        </div>
+      </div>
+
+      <!-- Table Section -->
+      <div class="table-section">
+        <h2>Standard Table Design</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Type</th>
+              <th>Joined</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mike Stuart</td>
+              <td>mike@gmail.com</td>
+              <td>Admin</td>
+              <td>25 Apr, 2018</td>
+              <td><button class="pending">Pending</button></td>
+            </tr>
+            <tr>
+                <td>Andrew Strauss</td>
+                <td>andrew.strauss@gmail.com</td>
+                <td>Editor</td>
+                <td>12 Mar, 2019</td>
+                <td><button class="approved">Approved</button></td>
+              </tr>
+              <tr>
+                <td>Rose Hoffman</td>
+                <td>rose.hoffman@gmail.com</td>
+                <td>Subscriber</td>
+                <td>8 Jan, 2020</td>
+                <td><button class="approved">Approved</button></td>
+              </tr>
+              <tr>
+                <td>Mike Henry</td>
+                <td>mike.henry@gmail.com</td>
+                <td>Admin</td>
+                <td>15 Jun, 2017</td>
+                <td><button class="rejected">Rejected</button></td>
+              </tr>
+              <tr>
+                <td>Kevin Peterson</td>
+                <td>kevin.peterson@gmail.com</td>
+                <td>Subscriber</td>
+                <td>20 Sep, 2021</td>
+                <td><button class="pending">Pending</button></td>
+              </tr>
+              <tr>
+                <td>Anna Smith</td>
+                <td>anna.smith@gmail.com</td>
+                <td>Editor</td>
+                <td>18 Oct, 2018</td>
+                <td><button class="approved">Approved</button></td>
+              </tr>
+              <tr>
+                <td>John Doe</td>
+                <td>john.doe@gmail.com</td>
+                <td>Admin</td>
+                <td>5 Feb, 2016</td>
+                <td><button class="pending">Pending</button></td>
+              </tr>
+              <tr>
+                <td>Susan Lee</td>
+                <td>susan.lee@gmail.com</td>
+                <td>Subscriber</td>
+                <td>10 Nov, 2020</td>
+                <td><button class="approved">Approved</button></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Graph Section -->
+      <canvas id="myChart" width="400" height="200" margin-top="20px"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

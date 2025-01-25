@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .dashboard {
+    display: flex;
+    width: 100%;
+  }
+  
+  .heading{
+    text-align: center;
+  }
+  .sidebar {
+    background-color: #f4f4f4;
+    width: 20%;
+    padding: 0px 20px;
+  }
+  
+  .sidebar h2 {
+    color: #007BFF;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 70px;
+    line-height: 22px;
+  }
+  
+  .sidebar li {
+    margin: 10px 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li img{
+    width: 13px;
+  }
+  
+  .sidebar button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin: 0 25px;
+    width: 160px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .content {
+    width: 80%;
+    padding: 20px;
+    /* background-color: #F5F5F5; */
+  }
+
+  header img{
+    width: 13px;
+    cursor: pointer;
+  }
+  #name-image{
+    width: 14px;
+  }
+  .user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 25px;
+  }
+  .name-info{
+    display: flex;
+    gap: 5px;
+  }
+  input{
+    width: 400px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 4px;
+    background-color: #f4f4f4;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .card.purple {
+    background: linear-gradient(135deg, #B87BF4, #f15bb5);
+  }
+  
+  .card.blue {
+    background: linear-gradient(135deg, #6887E4, #00f5d4);
+  }
+  
+  .card.orange {
+    background: linear-gradient(135deg, #FFA289, #ffbf69);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  table button {
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    width: 90px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  table button.pending {
+    background-color: #B87BF4;
+  }
+  
+  table button.approved {
+    background-color: #6887E4;
+  }
+  
+  table button.rejected {
+    background-color: #FFA289;
+  }
+  
+  
+  .table-section {
+    margin-top: 20px;
+    
+  }
+
+  .title{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  
